@@ -16,4 +16,4 @@ urlpatterns = [
     # path('edit/', views.profile_edit, name='edit'),
     path('new_comment/', views.CommentCreateView.as_view(),name='new_comment'),
     # path('like_images/',views.like_images, name='like_images'),
-    # path('image_upload/', views.image_upload,name='imageUpload'),
+    # path('image_upload/', views.image_upload,name='imageUpload'),]
