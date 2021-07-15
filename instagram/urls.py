@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('gram.urls')),
+    path('', include('instagram.urls')),
     path('accounts/', include('django_registration.backends.one_step.urls')),
     path('logout/', views.LogoutView.as_view(
         template_name="logout.html"

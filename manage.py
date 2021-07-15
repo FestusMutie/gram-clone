@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import os
 import sys
+sys.setrecursionlimit(10000) # max depth of recursion
+
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "instagram.settings")
