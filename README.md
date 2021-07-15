@@ -35,10 +35,10 @@ You'll need to create a new postgress database, Type the following command to ac
 
  $ psql
 
- Then run the following query to create a new database named  instagram
+ Then run the following query to create a new database named  insta
 
 ```
-create database instagram
+create database insta
 ```
 
 ## Database diagram
